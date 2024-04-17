@@ -1,0 +1,2 @@
+C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project\reactapp.client\obj\Debug\reactapp.client.esproj.CoreCompileInputs.cache
+C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\reactapp.client\obj\Debug\reactapp.client.esproj.CoreCompileInputs.cache
