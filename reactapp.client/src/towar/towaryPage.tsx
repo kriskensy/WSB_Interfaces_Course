@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Towar } from './towarPage';
 import { useEffect, useState } from 'react';
+//import { towar } from './types/towar/towar';
+import { TowarItem } from './towarItem';
 
 export const Towary = () => {
 
@@ -15,38 +17,38 @@ export const Towary = () => {
     const [listaTowarow, setListaTowarow] = useState<Towar[]>([
         //useState to hook, ktory przetrzymuje dane destrykturyzujac go zwracamy dane i funkcje do ustawiania tych danych
 
-        {
-            kod: "1",
-            nazwa: "NazwaTowaru1",
-            kategoria: "Kategoria1",
-            pkwiu: "1",
-            cena: 1,
-            iloscSztuk: 1
-        },
-        {
-            kod: "2",
-            nazwa: "NazwaTowaru2",
-            kategoria: "Kategoria2",
-            pkwiu: "2",
-            cena: 2,
-            iloscSztuk: 2
-        },
-        {
-            kod: "3",
-            nazwa: "NazwaTowaru3",
-            kategoria: "Kategoria3",
-            pkwiu: "3",
-            cena: 3,
-            iloscSztuk: 3
-        },
-        {
-            kod: "4",
-            nazwa: "NazwaTowaru4",
-            kategoria: "Kategoria4",
-            pkwiu: "4",
-            cena: 4,
-            iloscSztuk: 4
-        },
+        //{
+        //    kod: "1",
+        //    nazwa: "NazwaTowaru1",
+        //    kategoria: "Kategoria1",
+        //    pkwiu: "1",
+        //    cena: 1,
+        //    iloscSztuk: 1
+        //},
+        //{
+        //    kod: "2",
+        //    nazwa: "NazwaTowaru2",
+        //    kategoria: "Kategoria2",
+        //    pkwiu: "2",
+        //    cena: 2,
+        //    iloscSztuk: 2
+        //},
+        //{
+        //    kod: "3",
+        //    nazwa: "NazwaTowaru3",
+        //    kategoria: "Kategoria3",
+        //    pkwiu: "3",
+        //    cena: 3,
+        //    iloscSztuk: 3
+        //},
+        //{
+        //    kod: "4",
+        //    nazwa: "NazwaTowaru4",
+        //    kategoria: "Kategoria4",
+        //    pkwiu: "4",
+        //    cena: 4,
+        //    iloscSztuk: 4
+        //},
     ]);
 
     useEffect(() => {//useEffect to hook, ktory wywoluje sie w momencie zmiany wartosci wprowadzonej do tablicy. gdy tablica jest pusta wywoluje sie w momencie ladowania komponentow
@@ -125,16 +127,7 @@ export const Towary = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {listaTowarow.map((item, index) =>
-                        <tr key={index}>
-                            <td>{item.kod}</td>
-                            <td>{item.nazwa}</td>
-                            <td>{item.kategoria}</td>
-                            <td>{item.pkwiu}</td>
-                            <td>{item.cena}</td>
-                            <td>{item.iloscSztuk}</td>
-                        </tr>
-                    )}
+                    {listaTowarow?.map((item, index) => <TowarItem key={index} towar={item} />)}
                 </tbody>
             </Table>
         </Container>
