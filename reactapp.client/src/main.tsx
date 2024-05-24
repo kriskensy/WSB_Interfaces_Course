@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App'
 import './index.css'
 //import { // createBrowserRouter, // RouterProvider, //} from "react-router-dom"; 
-import { Towar } from './towar/towarPage.jsx';
-import { Towary } from './towar/towaryPage.jsx'
-import { Layout } from './layout/layout.jsx';
+import { Towar } from './towar/towarPage';
+import { Towary } from './towar/towaryPage';
+import { Pracownik } from './pracownik/pracownikPage';
+import { Pracownicy } from './pracownik/pracownicyPage';
+import { Layout } from './layout/layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Pracownik } from './pracownik/pracownikPage.jsx';
-import { Pracownicy } from './pracownik/pracownicyPage.jsx';
+
 
 //const router = createBrowserRouter([
 //    {
@@ -25,7 +26,7 @@ import { Pracownicy } from './pracownik/pracownicyPage.jsx';
 //    },
 //]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
         {/*<RouterProvider router={router} />*/}
         <BrowserRouter>
