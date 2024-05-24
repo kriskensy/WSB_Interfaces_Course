@@ -19,9 +19,9 @@ function App() {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Row>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="image/image2.png" />
+                        <Card.Img variant="top" src="image/image1.png" />
                         <Card.Body>
                             <Card.Title>Aktualnosc 1</Card.Title>
                             <Card.Text>
@@ -31,7 +31,7 @@ function App() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="image/image2.png" />
+                        <Card.Img variant="top" src="image/image1.png" />
                         <Card.Body>
                             <Card.Title>Aktualnosc 2</Card.Title>
                             <Card.Text>
@@ -41,7 +41,7 @@ function App() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="image/image2.png" />
+                        <Card.Img variant="top" src="image/image1.png" />
                         <Card.Body>
                             <Card.Title>Aktualnosc 3</Card.Title>
                             <Card.Text>
@@ -51,7 +51,7 @@ function App() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="image/image2.png" />
+                        <Card.Img variant="top" src="image/image1.png" />
                         <Card.Body>
                             <Card.Title>Aktualnosc 4</Card.Title>
                             <Card.Text>
@@ -60,7 +60,7 @@ function App() {
                             <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
-                </Col>
+                </Row>
             </Row>
         </Container>
     );

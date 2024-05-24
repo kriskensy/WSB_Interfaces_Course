@@ -68,3 +68,4 @@ C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\Re
 C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\ReactApp.Server\obj\Debug\net8.0\ReactApp.Server.pdb
 C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\ReactApp.Server\obj\Debug\net8.0\ReactApp.Server.genruntimeconfig.cache
 C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\ReactApp.Server\obj\Debug\net8.0\ref\ReactApp.Server.dll
+C:\Users\kkensy\Programowanie\_Studia WSB-NLU\Interfaces_kurs\Project_Lecture\ReactApp.Server\obj\Debug\net8.0\ReactApp.Server.sourcelink.json
